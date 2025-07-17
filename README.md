@@ -131,4 +131,4 @@ This project is open source and free to use.
 
 ## Author
 
-Created by \Mahiv Ram.
+- Mahiv Ram
