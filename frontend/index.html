@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sweet Shop Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Sweet Shop Management System</h1>
+    <section id="add-sweet">
+        <h2>Add Sweet</h2>
+        <form id="addSweetForm">
+            <input type="number" id="id" placeholder="ID" required>
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <input type="number" id="price" placeholder="Price" required>
+            <input type="number" id="quantity" placeholder="Quantity" required>
+            <button type="submit">Add Sweet</button>
+        </form>
+        <div id="addSweetMsg"></div>
+    </section>
+    <section id="search-sort">
+        <h2>Search & Sort</h2>
+        <input type="text" id="searchName" placeholder="Search by Name">
+        <input type="text" id="searchCategory" placeholder="Search by Category">
+        <input type="number" id="searchPriceMin" placeholder="Min Price">
+        <input type="number" id="searchPriceMax" placeholder="Max Price">
+        <button onclick="searchSweets()">Search</button>
+        <select id="sortBy">
+            <option value="name">Sort by Name</option>
+            <option value="category">Sort by Category</option>
+            <option value="price">Sort by Price</option>
+            <option value="quantity">Sort by Quantity</option>
+        </select>
+        <button onclick="sortSweets()">Sort</button>
+    </section>
+    <section id="sweets-list">
+        <h2>Available Sweets</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th><th>Name</th><th>Category</th><th>Price</th><th>Quantity</th><th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="sweetsTableBody"></tbody>
+        </table>
+    </section>
+    <script src="app.js"></script>
+</body>
+</html>

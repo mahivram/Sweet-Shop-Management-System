@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background: #f8f8ff;
+    color: #222;
+}
+h1 {
+    color: #b5651d;
+    text-align: center;
+}
+section {
+    margin-bottom: 30px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px #eee;
+}
+input, select, button {
+    margin: 5px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+button {
+    background: #b5651d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #a0522d;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background: #f4e2d8;
+}
+#addSweetMsg {
+    margin-top: 10px;
+    color: green;
+}
