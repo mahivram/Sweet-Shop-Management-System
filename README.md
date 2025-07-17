@@ -33,4 +33,4 @@ See `tests/test_shop.py` for usage examples.
 
 ## Author
 
-- [Your Name]
+- Mahiv Ram
