@@ -14,7 +14,7 @@ A simple, test-driven sweet shop management system in Python.
 ## Setup
 
 ```sh
-git clone <your-repo-url>
+git clone https://github.com/mahivram/Sweet-Shop-Management-System
 cd sweetshop
 python -m venv venv
 source venv/bin/activate  # or venv\Scripts\activate on Windows
